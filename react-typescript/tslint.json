@@ -1,0 +1,14 @@
+// https://github.com/palantir/tslint/blob/master/src/configs/latest.ts
+// https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts
+
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "interface-name": [true, "never-prefix"]
+  }
+}

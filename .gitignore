@@ -1,0 +1,36 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+*/node_modules
+*/.cache
+*/dist
+
+/node_modules
+anu/node_modules
+elm/node_modules
+inferno/node_modules
+preact/node_modules
+react/node_modules
+react-flow/node_modules
+react-flux/node_modules
+react-immutable/node_modules
+react-parcel/node_modules
+react-redux/node_modules
+react-typescript/node_modules
+react-parcel-typescript/node_modules
+react-typescript-template/node_modules
+riotjs/node_modules
+typescript-react-redux/node_modules
+vue/node_modules
+vue-typescript/node_modules
+vue-vuex/node_modules
+
+
+# production
+/build
+/docs
+
+# misc
+.DS_Store
+.idea
+npm-debug.log*
